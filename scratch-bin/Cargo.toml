@@ -1,0 +1,13 @@
+[package]
+name = "scratch-bin"
+version = "0.1.0"
+authors = ["Aljoscha Krettek <aljoscha.krettek@gmail.com>"]
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "scratch-bin"
+bench = false
+
+[dependencies]
+mz-scratch = { path = "../scratch/" }

@@ -1,0 +1,12 @@
+[package]
+name = "mz-scratch"
+version = "0.1.0"
+authors = ["Aljoscha Krettek <aljoscha.krettek@gmail.com>"]
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+bench = false
+
+[dependencies]
+openssl = { version = "0.10.48", features = ["vendored"]}
